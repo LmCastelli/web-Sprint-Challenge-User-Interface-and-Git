@@ -227,6 +227,7 @@ footer nav a {
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 4%;
+    margin-bottom: 3%;
     border-bottom: 1px dashed black;
     
 }
@@ -236,8 +237,10 @@ footer nav a {
 }
 .gallery button{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: black;
-    width:30%;
-    
+    width:35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2.5%;
 }
