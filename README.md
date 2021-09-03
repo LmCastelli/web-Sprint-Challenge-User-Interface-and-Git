@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is key to designing your page, as it allows greater understanding of the HTML to both yourself as well as others who read you code. Instead of just having code full of sections and divs, using headers, class/id names, etc., allow for a much cleaner presentation while also give importance to certain elements if you so choose to.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Two key differences between display:block and display:inline are where they begin and the width they take. Display:block always starts on a new line and stretch to the largest width they can, while display:inline does not start on a new line and only takes the width it needs to.
 
 3. What are the 4 areas of the box model?
 
+    Starting from the center and working outward, we have content, padding, border, and margin. The content is whatever the content is, maybe text of some sort or an image or even a div. The padding is the area between the element and the border. The border surrounds the padding, and can be given different properties or colors if you wish. Finally, the margin is the white space outside the element that can be adjusted to give that element space from another if need be.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Align items targets the cross axis of what you were working on, or rather, the axis perpendicular to the main axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable as it allows multiple people to work on their independent computers working on either similar aspects or their own unique job while not having everyone type over each others' changes. Git allows us to make our own copy, make some changes, make a request to add those changes, and review and accept those changes. Without git it would be much more chaotic.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
