@@ -90,9 +90,6 @@ header nav{
     color:black;
     font-size: .9rem;
 }
-.long-exposure{
-    
-}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -214,4 +211,12 @@ footer nav a {
     padding-bottom: 3%;
     border-bottom: 1px dashed black;
     margin-bottom: 3%;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
 }
