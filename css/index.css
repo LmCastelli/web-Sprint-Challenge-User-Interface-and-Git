@@ -210,7 +210,7 @@ footer nav a {
     padding:0 2.5%;
     padding-bottom: 3%;
     border-bottom: 1px dashed black;
-    margin-bottom: 3%;
+    
 }
 
 .gallery{
@@ -219,4 +219,25 @@ footer nav a {
     justify-content: center;
     align-items: center;
     width:100%;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    width:45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    border-bottom: 1px dashed black;
+    
+}
+.gallery img{
+    width:100%;
+    padding-bottom: 3%;
+}
+.gallery button{
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width:30%;
+    
 }
